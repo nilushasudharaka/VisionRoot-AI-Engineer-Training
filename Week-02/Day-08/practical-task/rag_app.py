@@ -5,6 +5,7 @@ import chromadb
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 from google import genai
+from google.genai.errors import ServerError
 
 
 load_dotenv()
@@ -118,10 +119,20 @@ Provide:
 2. Sources
 """
 
-    response = gemini_client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt
-    )
+    try:
+        response = gemini_client.models.generate_content(
+            model="gemini-3.8-flash",
+            contents=prompt
+        )
+    except ServerError:
+        print(
+            "Gemini 3.8 Flash is temporarily unavailable; "
+            "trying Gemini Flash Lite..."
+        )
+        response = gemini_client.models.generate_content(
+            model="gemini-flash-lite-latest",
+            contents=prompt
+        )
 
     return response.text
 
@@ -160,11 +171,18 @@ def main():
 
         print("\nGenerating answer...")
 
-        answer = generate_answer(
-            question,
-            documents,
-            metadatas
-        )
+        try:
+            answer = generate_answer(
+                question,
+                documents,
+                metadatas
+            )
+        except ServerError:
+            print(
+                "Gemini's primary and fallback models are unavailable. "
+                "Please wait a little and try again."
+            )
+            continue
 
         print("\n" + "=" * 60)
         print("ANSWER")
