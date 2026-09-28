@@ -1,0 +1,15 @@
+Sample Product Information
+Document Type: Products
+Version: 1.0
+
+Product A is a customer management web application.
+
+The application allows users to create customer records, update customer information, search customer records, and view customer details.
+
+Product B is an AI knowledge assistant.
+
+The AI knowledge assistant allows users to ask questions about approved documents. The system retrieves relevant document sections and provides them as context to a language model.
+
+The knowledge assistant should provide source information when answering questions.
+
+The system should avoid creating information that is not supported by the available documents.

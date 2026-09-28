@@ -1,0 +1,15 @@
+Sample Company Knowledge Base
+Document Type: Company Overview
+Version: 1.0
+
+This document contains sample information created for a RAG application demonstration.
+
+The company develops software solutions that use web technologies, artificial intelligence, and data-driven systems.
+
+The development team works on web applications, backend services, AI-powered applications, and data processing systems.
+
+The company uses software development practices such as version control, testing, documentation, and code review.
+
+Git is used for source code version control.
+
+Project documentation should describe the purpose of a project, important technical decisions, setup instructions, and known limitations.

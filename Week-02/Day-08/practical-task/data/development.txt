@@ -1,0 +1,17 @@
+Sample Development Guidelines
+Document Type: Development
+Version: 1.0
+
+Developers should use Git for source code version control.
+
+Changes should be tested before being committed.
+
+Meaningful commit messages should describe the purpose of a change.
+
+Python projects should use a virtual environment when possible.
+
+Sensitive information such as API keys should not be committed to Git repositories.
+
+Environment variables can be used to store configuration values and API keys.
+
+When an application produces an unexpected result, developers should reproduce the problem, inspect the error, identify the cause, apply a fix, and test the solution again.

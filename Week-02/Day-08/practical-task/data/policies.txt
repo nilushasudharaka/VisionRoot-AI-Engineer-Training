@@ -1,0 +1,13 @@
+Sample Project Policies
+Document Type: Policies
+Version: 1.0
+
+Project documents should be reviewed before being added to the knowledge base.
+
+Only approved documents should be used as knowledge sources.
+
+The AI assistant should answer questions using information retrieved from the knowledge base.
+
+If the required information cannot be found in the available documents, the assistant should clearly state that the information is not available.
+
+The assistant should not invent company policies, product specifications, employee information, or technical details that are not present in the knowledge base.
