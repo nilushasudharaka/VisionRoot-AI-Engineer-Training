@@ -210,3 +210,4 @@ def ask(
             status_code=500,
             detail="AI service temporarily unavailable"
         )
+    
