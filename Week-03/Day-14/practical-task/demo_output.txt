@@ -1,0 +1,52 @@
+VISIONROOT DAY 14 – AI OPTIMIZATION DEMO
+Note: MODEL CALLS ARE SIMULATED; token counts and prices are illustrative.
+
+Q: What time is check-in?
+A: Hotel check-in starts at 2 PM and check-out is before 11 AM.
+  model=small-demo, cache_hit=False, model_calls=1
+  retrieved=1, estimated_input_tokens=26, estimated_output_tokens=15
+  estimated_cost=$0.00001720, retrieval=0.0999ms, model=0.0004ms, processing=0.0006ms, total=0.1147ms
+  quality_check=PASS
+
+Q: What time is check-in?
+A: Hotel check-in starts at 2 PM and check-out is before 11 AM.
+  model=small-demo, cache_hit=True, model_calls=0
+  retrieved=1, estimated_input_tokens=0, estimated_output_tokens=0
+  estimated_cost=$0.00000000, retrieval=0.0000ms, model=0.0000ms, processing=0.0029ms, total=0.0032ms
+  quality_check=PASS
+
+Q: Is Wi-Fi available?
+A: Free Wi-Fi is available in guest rooms and common areas.
+  model=small-demo, cache_hit=False, model_calls=1
+  retrieved=1, estimated_input_tokens=24, estimated_output_tokens=14
+  estimated_cost=$0.00001600, retrieval=0.0271ms, model=0.0005ms, processing=0.0006ms, total=0.0359ms
+  quality_check=PASS
+
+Q: How can I request airport transfers?
+A: Airport transfers can be requested at reception for an additional fee.
+  model=small-demo, cache_hit=False, model_calls=1
+  retrieved=1, estimated_input_tokens=32, estimated_output_tokens=18
+  estimated_cost=$0.00002080, retrieval=0.0218ms, model=0.0002ms, processing=0.0003ms, total=0.0286ms
+  quality_check=PASS
+
+Q: What is the cancellation policy?
+A: I don't have enough information in the provided documents.
+  model=small-demo, cache_hit=False, model_calls=1
+  retrieved=0, estimated_input_tokens=13, estimated_output_tokens=15
+  estimated_cost=$0.00001460, retrieval=0.0204ms, model=0.0002ms, processing=0.0002ms, total=0.0253ms
+  quality_check=PASS
+
+Q: Can I bring a pet?
+A: I don't have enough information in the provided documents.
+  model=small-demo, cache_hit=False, model_calls=1
+  retrieved=0, estimated_input_tokens=10, estimated_output_tokens=15
+  estimated_cost=$0.00001400, retrieval=0.0190ms, model=0.0001ms, processing=0.0001ms, total=0.0233ms
+  quality_check=PASS
+
+SUMMARY
+Requests: 6
+Simulated model calls: 5
+Calls avoided by exact-match caching: 1
+Naive full-context estimated input tokens across requests: 543
+Optimized estimated input tokens across non-cached requests: 105
+These metrics do not measure real API latency, cost, or model quality.

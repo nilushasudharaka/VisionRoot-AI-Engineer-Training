@@ -1,0 +1,18 @@
+test_answer_grounded (test_optimizer.TestOptimization.test_answer_grounded) ... ok
+test_cache_avoids_cost (test_optimizer.TestOptimization.test_cache_avoids_cost) ... ok
+test_cache_avoids_model_call (test_optimizer.TestOptimization.test_cache_avoids_model_call) ... ok
+test_context_limited (test_optimizer.TestOptimization.test_context_limited) ... ok
+test_empty_input_rejected (test_optimizer.TestOptimization.test_empty_input_rejected) ... ok
+test_metrics_available (test_optimizer.TestOptimization.test_metrics_available) ... ok
+test_model_selection_complex (test_optimizer.TestOptimization.test_model_selection_complex) ... ok
+test_model_selection_simple (test_optimizer.TestOptimization.test_model_selection_simple) ... ok
+test_quality_check (test_optimizer.TestOptimization.test_quality_check) ... ok
+test_retrieval_matches (test_optimizer.TestOptimization.test_retrieval_matches) ... ok
+test_retrieval_top_k (test_optimizer.TestOptimization.test_retrieval_top_k) ... ok
+test_token_estimate (test_optimizer.TestOptimization.test_token_estimate) ... ok
+test_unrelated_question_abstains (test_optimizer.TestOptimization.test_unrelated_question_abstains) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.002s
+
+OK
