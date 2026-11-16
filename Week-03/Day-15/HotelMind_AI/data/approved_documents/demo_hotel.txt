@@ -1,0 +1,14 @@
+Welcome to Coral Bay Demo Hotel. This is fictional sample data for training, not an actual hotel.
+Check-in begins at 2:00 PM and check-out is by 11:00 AM.
+Guests can cancel without a fee up to 48 hours before scheduled arrival.
+Free Wi-Fi is available in guest rooms and the lobby.
+The hotel provides free on-site parking for registered guests.
+Airport pickup is available on request for an additional fee; ask reception for a quote.
+Breakfast is served from 7:00 AM to 10:00 AM in the main restaurant.
+The swimming pool operates from 8:00 AM to 8:00 PM.
+Pets are not allowed except registered service animals as applicable by law.
+The front desk is staffed 24 hours per day.
+A valid government-issued ID is required at check-in.
+Late check-out is subject to availability and may incur an extra charge.
+The hotel accepts major credit cards for room payments.
+The fitness room opens at 6:00 AM and closes at 10:00 PM.

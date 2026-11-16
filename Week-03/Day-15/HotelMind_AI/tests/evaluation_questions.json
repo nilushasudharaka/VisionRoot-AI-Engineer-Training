@@ -1,0 +1,12 @@
+[
+  {"question":"What time is check-in?", "expected":"2:00 PM"},
+  {"question":"What time is check-out?", "expected":"11:00 AM"},
+  {"question":"What is the cancellation policy?", "expected":"48 hours"},
+  {"question":"Does the hotel have Wi-Fi?", "expected":"Wi-Fi"},
+  {"question":"Is parking free?", "expected":"parking"},
+  {"question":"Can I get airport pickup?", "expected":"Airport pickup"},
+  {"question":"What are breakfast hours?", "expected":"7:00 AM"},
+  {"question":"When does the swimming pool open?", "expected":"8:00 AM"},
+  {"question":"Can I bring pets?", "expected":"Pets"},
+  {"question":"Is the front desk open all night?", "expected":"24 hours"}
+]

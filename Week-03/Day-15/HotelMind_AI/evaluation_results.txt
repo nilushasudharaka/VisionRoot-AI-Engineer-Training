@@ -1,0 +1,12 @@
+Question evaluation (literal expected phrase in answer):
+01 PASS | What time is check-in? | expected: 2:00 PM | source: demo_hotel.txt
+02 PASS | What time is check-out? | expected: 11:00 AM | source: demo_hotel.txt
+03 PASS | What is the cancellation policy? | expected: 48 hours | source: demo_hotel.txt
+04 PASS | Does the hotel have Wi-Fi? | expected: Wi-Fi | source: demo_hotel.txt
+05 PASS | Is parking free? | expected: parking | source: demo_hotel.txt
+06 PASS | Can I get airport pickup? | expected: Airport pickup | source: demo_hotel.txt
+07 PASS | What are breakfast hours? | expected: 7:00 AM | source: demo_hotel.txt
+08 PASS | When does the swimming pool open? | expected: 8:00 AM | source: demo_hotel.txt
+09 PASS | Can I bring pets? | expected: Pets | source: demo_hotel.txt
+10 PASS | Is the front desk open all night? | expected: 24 hours | source: demo_hotel.txt
+EVALUATION: 10/10 passed
